@@ -38,7 +38,7 @@ layout: home
 			<li>
 				<p>This is not a <a href="https://en.wikipedia.org/wiki/Cauchy_surface" target="_blank">Cauchy surface</a>, but you still got here.<br/>
 				“你从远方来，我到远方去，遥远的路程经过这里。”</p>
-                <audio src="/audio/song.mp3" controls="controls"> </audio>
+                <audio src="/audios/last_dance.mp3" controls="controls"> </audio>
 			</li>
         </ul>
     </div>
