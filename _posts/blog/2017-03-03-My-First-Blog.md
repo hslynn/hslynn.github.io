@@ -2,7 +2,7 @@
 layout: post
 title: So it begins
 category: blog
-description: 开天辟地第一篇
+description: 开天辟地
 ---
 
 经过几天的折腾，搞定了域名，选好了主题，终于可以正式开张了。

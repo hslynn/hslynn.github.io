@@ -30,7 +30,7 @@ $]
 
 ## 辛差分格式
 
-对于\frac{dz}{dt}=K^{-1}(z)\nabla H(z)，若 $K$ 反对称，非退化，且满足 $Jacobi~ Identiy$：
+对于$\frac{dz}{dt}=K^{-1}(z)\nabla H(z)$，若 $K$ 反对称，非退化，且满足 $Jacobi~ Identiy$：
 [$
 \frac{\partial K_{ab}}{\partial z_c}+\frac{\partial K_{bc}}{\partial z_a}+\frac{K_{ca}}{\partial z_b}=0
 $]
