@@ -28,17 +28,9 @@ layout: home
 				</h2>
 				<div class="title-desc">
 					<p>采用<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>搭建的<a href="https://pages.github.com/" target="_blank">GitHub Pages</a><br/>
-				   	   模板来自<a href="https://github.com/Mukosame/mukosame.github.io" target="_blank">Mukosame</a>与<a href="https://github.com/beiyuu/Github-Pages-Example" target="_blank">BeiYuu</a>，感激不尽
+				   	   模板来自<a href="https://github.com/Mukosame/mukosame.github.io" target="_blank">Mukosame</a>与<a href="https://github.com/beiyuu/Github-Pages-Example" target="_blank">BeiYuu</a>
 					</p>	
 				</div>
-			</li>
-
-			<hr>
-
-			<li>
-				<p>This is not a <a href="https://en.wikipedia.org/wiki/Cauchy_surface" target="_blank">Cauchy surface</a>, but you still got here.<br/>
-				“你从远方来，我到远方去，遥远的路程经过这里。”</p>
-                <audio src="/audios/last_dance.mp3" controls="controls"> </audio>
 			</li>
         </ul>
     </div>
