@@ -12,3 +12,14 @@ description: notes of "The Practicing Mind"
 * To change your perspective, you must first realize this truth, and secondly, you must become aware of when you are involved in the process of working toward a particular goal. When you make a decision to acquire something which will require a long-term commitment, pick the goal and then be aware you are entering the “process” of achieving the goal. You cannot do this if you are constantly making the end result your point of focus. You have acknowledged the goal, now let go of it and put your energy into the process of achieving the goal.
 
 ## From Chapter 'The Four 'S' Words'
+* Simplify---化繁为简
+* Small---化整为零
+* Short---一次一跬步
+* Slow---欲速则不达
+
+## From Chapter 'Equanimity and DOC'
+* Judgments are necessary to function in life, but they have a down side. The problem with the whole process of judging is that it is not executed with a detached nature. There is usually some emotion involved, and the amount of emotion is proportional to the perceived importance of the judgment.
+* We must work at being more objectively aware of ourselves. We cannot refine any part of our daily thought processes if we are not separate from them.
+* How do we become aligned to the Observer? How do we free ourselves from the confines of our ego? Though there are certainly a number of ways to accomplish this, in my opinion, the most effective method for creating this awareness spontaneously and effortlessly is meditation.
+* ...“DOC,” which stands for Do, Observe, Correct.
+* 
