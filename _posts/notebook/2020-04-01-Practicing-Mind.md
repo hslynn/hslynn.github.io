@@ -1,8 +1,7 @@
 ---
 layout: post
-title: 读＜The Practicing Mind＞书摘
+title: Notes of "The Practicing Mind"
 category: notebook 
-description: notes of "The Practicing Mind"
 ---
 ## From Chapter 'Perception Change Creats Patience!' 
 * Speaking about what she was reading, she said, “You need to keep reviewing these ideas so that you can hang on to the clarity and perspective. Otherwise, life steals it away.”
