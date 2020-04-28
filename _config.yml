@@ -6,6 +6,6 @@ opaginate: 8
 permalink: /:categories/:year-:i_month-:i_day/:title
 
 title: Not a Cauchy Surface 
-url: http://hslynn.github.io
+url: https://hslynn.github.io
 feed: /atom.xml
 author_info: <a href="http://hslynn.github.io/">Hslynn</a>
