@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+        <div onmouseover="style.cursor='pointer'">
+        <p id="light"; style="margin: 0px; text-align: center; float: left; height: 80px; width: 500px; padding:30px 0px 0px 0px; border:4px solid #cdefab; background:white;" onclick="reset()">
+            <font size=10px>Click Here To Reset </font></p>
+        <p style="margin: 0px; float: left; width: 246px; height: 50px; padding:0px 0px; border:4px solid #cdefab; background:red;" onclick="push('red')"></p>
+        <p style="margin: 0px; float: left; width: 246px; height: 50px; padding:0px 0px; border:4px solid #cdefab; background:blue;" onclick="push('blue')"></p>
+        </div>
+        <p id="text"; style="margin: 0px; text-align: center; float: left; height: 100px; width: 500px; padding:0px 0px; border:4px solid #cdefab; background:white;"></p>
+	</body>
+</html>
+
+
+<script>
+var HITS_RED = 0;
+var HITS_BLUE = 0;
+var HITS_TOTAL = 0;
+
+var LIGHTS_RED = 0;
+var LIGHTS_BLUE = 0;
+var LIGHTS_TOTAL = 0;
+
+var RATIO_RED = 0;
+var RATIO_BLUE = 0;
+var RATIO_TOTAL = 0;
+
+function push(color_pushed) {
+    var random_int = Math.floor(Math.random()*10);
+    var color;
+	if (random_int <= 6){
+	    color = "red";
+        LIGHTS_RED += 1;
+	}	
+	else{
+		color = "blue";
+        LIGHTS_BLUE += 1;
+	}
+    document.getElementById("light").style.backgroundColor = color;
+
+    if (color_pushed == color) {
+        if (color == "red") {
+            HITS_RED += 1;
+        }
+        else {
+            HITS_BLUE += 1;
+        }
+        HITS_TOTAL += 1;
+    }
+    LIGHTS_TOTAL += 1;
+
+    RATIO_RED = to_percent(HITS_RED/LIGHTS_RED);
+    RATIO_BLUE = to_percent(HITS_BLUE/LIGHTS_BLUE);
+    RATIO_TOTAL = to_percent(HITS_TOTAL/LIGHTS_TOTAL);
+    write_text();
+}
+
+function to_percent(num) {
+    if (!isNaN(num)) {
+        return (Math.round(num * 10000)/100).toFixed(2) + "%";
+    }
+    else {
+        return "0.00%";
+    }
+    
+}
+
+function write_text() {
+    var html = "Total guesses: " + LIGHTS_TOTAL + "</br>";
+    html += "Total right guesses: " + HITS_TOTAL + ",  ";
+    html += "Right guesses ratio: " + RATIO_TOTAL + "</br>";
+    html += "Right guesses of red: <font color='red'>" + HITS_RED + "</font>,  ";
+    html += "Ratio of right guesses of red: <font color='red'>" + RATIO_RED + "</font></br>";
+    html += "Right guesses of blue: <font color='blue'>" + HITS_BLUE + "</font>,  ";
+    html += "Ratio of right guesses of blue: <font color='blue'>" + RATIO_BLUE + "</font></br>";
+    html += "Click <font color='red'>RED</font> or <font color='blue'>BLUE</font> button to predict which color appears next.";
+    document.getElementById("text").innerHTML = html;
+}
+
+function reset() {
+    HITS_RED = 0;
+    HITS_BLUE = 0;
+    HITS_TOTAL = 0;
+
+    LIGHTS_RED = 0;
+    LIGHTS_BLUE = 0;
+    LIGHTS_TOTAL = 0;
+
+    RATIO_RED = 0;
+    RATIO_BLUE = 0;
+    RATIO_TOTAL = 0;
+    write_text();
+    document.getElementById("light").style.backgroundColor = "white";
+}
+
+function test() {
+    for (i = 0; i < 100000; i++) {
+        push("red");
+    }
+}
+
+</script>
+
+
