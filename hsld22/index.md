@@ -6,5 +6,7 @@ published: true
 # {{page.title}}
 <hr>
 
-## 2024.02.06 $\color{Red} {皮皮 +18000} \color{Yellow} {二哥 +16000}$
+## 2024.02.06 <font color=red> 皮皮 +18000 </font> <font color=yellow> 二哥 +16000 </font> <font color=blue> 结余 +34000 </font> 
 
+<hr>
+## 箱箱总重 +34000
