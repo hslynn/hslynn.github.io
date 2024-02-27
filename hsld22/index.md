@@ -11,10 +11,5 @@ published: true
 
 | 日期   | 皮皮 | 二哥 | 备注 |
 |--------|------|------|------|
-
-{% for entry in site.data.ledger %}
-| {{ entry.date }} | {{ entry.pipi }}  | {{ entry.erge }}   | {{ entry.note }}  |
-{% endfor %}
-
 | 总计   |    |    |    |
 
