@@ -7,8 +7,8 @@ published: true
 
 | 日期   | 皮皮 | 二哥 | 备注 |
 |--------|------|------|------|
-{% for entry  in site.data.ledger %}
+{% for entry in site.data.ledger %}
 | {{entry.date}} | {{entry.pipi}}  | {{entry.erge}}   | {{entry.note}}  |
-{%endfor}
+{%endfor%}
 | 总计   |    |    |    |
 
