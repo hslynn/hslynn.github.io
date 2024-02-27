@@ -5,11 +5,9 @@ published: true
 ---
 # {{page.title}}
 
-{% for entry in site.data.ledger %}
- {{ entry.date }}
-{% endfor %}
+<hr>
 
-| 日期   | 皮皮 | 二哥 | 备注 |
-|--------|------|------|------|
-| 总计   |    |    |    |
+## 2024.02.06 <font color=red> 皮皮+18K </font> <font color=orange> 二哥+16K </font> <font color=green> 结余+34K </font> 
 
+<hr>
+## 箱箱总重+34K
