@@ -6,13 +6,15 @@ published: true
 # {{page.title}}
 
 {% for entry in site.data.ledger %}
- {{entry.date}}
+ {{ entry.date }}
 {% endfor %}
 
 | 日期   | 皮皮 | 二哥 | 备注 |
 |--------|------|------|------|
+
 {% for entry in site.data.ledger %}
-| {{entry.date}} | {{entry.pipi}}  | {{entry.erge}}   | {{entry.note}}  |
+| {{ entry.date }} | {{ entry.pipi }}  | {{ entry.erge }}   | {{ entry.note }}  |
 {% endfor %}
+
 | 总计   |    |    |    |
 
