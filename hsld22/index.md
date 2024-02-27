@@ -1,12 +1,13 @@
 ---
 layout:  page
-title: 皮皮和二哥的小黄箱箱儿 
+title: 皮皮和二哥的黄箱箱儿 
 published: true 
 ---
 # {{page.title}}
-<hr>
-
-## 2024.02.06 <font color=red> 皮皮 +18000 </font> <font color=orange> 二哥 +16000 </font> <font color=green> 结余 +34000 </font> 
 
 <hr>
-## 箱箱总重 +34000
+
+## 2024.02.06 <font color=red> 皮皮+18K </font> <font color=orange> 二哥+16K </font> <font color=green> 结余+34K </font> 
+
+<hr>
+## 箱箱总重+34K
