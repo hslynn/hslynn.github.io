@@ -5,9 +5,38 @@ published: true
 ---
 # {{page.title}}
 
-<hr>
+<table align="center" border="3" width="402">
 
-## 2024.02.06 <font color=red> 皮皮+18K </font> <font color=orange> 二哥+16K </font> <font color=green> 结余+34K </font> 
+  <tbody>
+    <tr>
+      <td>日期</td>
+      <td>皮皮</td>
+      <td>二哥</td>
+      <td>备注</td>
+    </tr>
+{% assign pipi_total = 0 %}
+{% for entry in site.data.ledger %}
+    {% assign pipi_total = pipi_total | plus: entry.pipi %}
+    {% assign erge_total = erge_total | plus: entry.erge %}
+    <tr>
+      <td>{{ entry.date }}</td>
+      <td>{{ entry.pipi }}</td>
+      <td>{{ entry.erge }}</td>
+      <td>{{ entry.note }}</td>
+    </tr>
+{% endfor %}
+    <tr>
+      <td>合计</td>
+      <td>{{ pipi_total }}</td>
+      <td>{{ erge_total }}</td>
+      <td>{{ pipi_total | plus: erge_total }}</td>
+    </tr>
+  </tbody>
+  <colgroup>
+    <col style="width: 25%;">
+    <col style="width: 25%;">
+    <col style="width: 25%;">
+    <col style="width: 25%;">
+  </colgroup>
+</table>
 
-<hr>
-## 箱箱总重+34K
