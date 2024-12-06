@@ -5,7 +5,7 @@ published: true
 ---
 # {{page.title}}
 
-<table align="center" border="3" width="402">
+<table align="center" border="3" width="502">
 
   <tbody>
     <tr>
@@ -37,11 +37,11 @@ published: true
     </tr>
   </tbody>
   <colgroup>
-    <col style="width: 25%;">
-    <col style="width: 25%;">
-    <col style="width: 25%;">
-    <col style="width: 25%;">
-    <col style="width: 25%;">
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+    <col style="width: 20%;">
   </colgroup>
 </table>
 
